@@ -1,0 +1,191 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+font-weight: 700;
+}
+
+/* title section */
+
+.navbar{
+    padding:0 0 50px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.title-button{
+  margin: 0 10px 30px;
+  position: relative;
+  right: 3.7rem;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%
+}
+
+#title h1{
+  text-align: left;
+}
+.title-heading{
+font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+/* title section ends */
+
+/* features section */
+
+#features{
+padding: 7% 15%;
+}
+
+.features-row{
+  padding: 5%;
+}
+
+.features-icon{
+  color: #ef8172;
+ position: relative;
+  bottom: 0.5rem;
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.features-icon:hover{
+color: #ff4c68;
+}
+
+.features-paragraph{
+  color: gray;
+}
+/* features section */
+
+/* testimonials section */
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+  .container-fluid{
+    padding: 7% 15%;
+  }
+
+  #testimonials{
+    color: #fff;
+      background-color: #ef8172;
+  }
+
+/* testimonials section */
+
+/* press section */
+
+
+#press{
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* press section */
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+/* pricing section */
+
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  padding: 10%;
+  color: #fff;
+}
+
+.cta-h1{
+  font-size: 2.5rem;
+  padding: 0 10%;
+  line-height: 2;
+}
+
+/* call to action */
+
+/* footer section */
+#footer{
+  background-color: #fff;
+  padding: 8%;
+}
+
+.footer-button{
+margin: 1rem;
+}
+
+.footer-icons{
+  margin: 0 10px 15px;
+}
+
+.footer-p{
+  color: gray;
+}
+/* footer section */
+
+@media (max-width: 1028px) {
+
+  #title h1 {
+    text-align: center;
+  }
+
+  .row .title-button{
+    position: static;
+  text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
